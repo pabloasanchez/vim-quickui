@@ -529,8 +529,8 @@ endfunc
 let s:border_styles = {}
 
 let s:border_styles[0] = quickui#core#border_extract('           ')
-let s:border_styles[1] = quickui#core#border_extract('+-+|-|+-+++')
-let s:border_styles[2] = quickui#core#border_extract('┌─┐│─│└─┘├┤')
+let s:border_styles[1] = quickui#core#border_extract('┌─┐│─│└─┘├┤')
+let s:border_styles[2] = quickui#core#border_extract('+-+|-|+-+++')
 let s:border_styles[3] = quickui#core#border_extract('╔═╗║─║╚═╝╟╢')
 let s:border_styles[4] = quickui#core#border_extract('╭─╮│─│╰─╯├┤')
 let s:border_styles[5] = quickui#core#border_extract('/-\|-|\-/++')
